@@ -12,8 +12,12 @@ example:
 
 require 'ruby-entropy'
 
-my_password = Password.new('open sesame')
+example = RubyEntropy.new('open sesame')
 
-my_password.strength
+example.passphrase
+
+  => open sesame
+
+example.strength
   
   => 24.15 

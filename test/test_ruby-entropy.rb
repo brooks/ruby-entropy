@@ -1,12 +1,12 @@
 require_relative '../lib/ruby-entropy.rb'
 
-tst = Password.new("avocado avocado avocado")
-sky = Password.new("the force is lucid on westward mornings")
-wrd = Password.new("trustno1")
-key = Password.new('asdfgh')
-num = Password.new("12345neko!")
-rep = Password.new("123aaa#B")
-cmn = Password.new("@dm!n|strat0r's p@5$w0rd")
+tst = RubyEntropy.new("avocado avocado avocado")
+sky = RubyEntropy.new("the force is lucid on westward mornings")
+wrd = RubyEntropy.new("trustno1")
+key = RubyEntropy.new('asdfgh')
+num = RubyEntropy.new("12345neko!")
+rep = RubyEntropy.new("123aaa#B")
+cmn = RubyEntropy.new("@dm!n|strat0r's p@5$w0rd")
 
 puts '====TESTS===='
 
