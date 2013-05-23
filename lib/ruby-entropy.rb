@@ -14,6 +14,8 @@ class RubyEntropy
     (31 * bad_passphrase_multiplier * Math.log(entropy / 13.62)).round(2)
   end
 
+  private
+
   def entropy
     Math.log2(count ** length)
   end

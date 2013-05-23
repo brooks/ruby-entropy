@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.name        = 'ruby-entropy'
-  s.version     = '0.1.1'
+  s.version     = '0.1.2'
   s.date        = '2013-05-22'
-  s.summary     = "password strength algorithm"
-  s.description = "Calculates password strength based on standard entropy definition.  Strength is reduced based on repeatability and common password test functions"
+  s.summary     = "passphrase strength algorithm"
+  s.description = "Returns passphrase strength based on entropy and weak passphrase tests"
   s.authors     = ["Brooks Mason"]
   s.email       = 'brooksmason@gmail.com'
   s.files       = ["lib/ruby-entropy.rb"]
