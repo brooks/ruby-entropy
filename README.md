@@ -6,8 +6,14 @@ Ruby Entropy is an algorithm for evaluating the robustness of passphrases. The a
 There is a javascript version of the algorithm <a href="https://github.com/broppler/password-entropy">here</a>.
 
 ##Install
+### console
 ```console
 $ gem install ruby-entropy
+```
+
+### gemfile
+```ruby
+gem 'ruby-entropy', '~> 0.2.0'
 ```
 
 ##Require
@@ -35,11 +41,11 @@ example.strength
 ```
 
 
-###Blacklisted words and phrases
+###Blacklisted words and phrases (0.2.0+)
 Ruby Entropy maintains a short list of blacklisted words and phrases.  If you want to add a blacklisted word or phrase e.g., your website name, you can add it like so:
 
 ```ruby
-RubyEntropy.blacklist_passphrase('correct')
+RubyEntropy.blacklist_passphrase('correct')g
 ```
 
 ```ruby
