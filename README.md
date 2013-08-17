@@ -6,12 +6,12 @@ Ruby Entropy is an algorithm for evaluating the robustness of passphrases. The a
 There is a javascript version of the algorithm <a href="https://github.com/broppler/password-entropy">here</a>.
 
 ##Install
-### console
+console
 ```console
 $ gem install ruby-entropy
 ```
 
-### gemfile
+gemfile
 ```ruby
 gem 'ruby-entropy', '~> 0.2.0'
 ```
