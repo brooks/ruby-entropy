@@ -18,7 +18,8 @@ class RubyEntropy
     if phrase.class != String
       return 'you must enter a string'
     end
-    COMMON_PASSPHRASES.push(phrase)
+    COMMON_PASSPHRASES.push(phrase.downcase)
+    return 'success'
   end
 
   private
