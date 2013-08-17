@@ -14,6 +14,13 @@ class RubyEntropy
     (31 * bad_passphrase_multiplier * Math.log(entropy / 13.62)).round(2)
   end
 
+  def self.blacklist_passphrase(phrase)
+    if phrase.class != String
+      return 'you must enter a string'
+    end
+    COMMON_PASSPHRASES.push(phrase)
+  end
+
   private
 
   def entropy
