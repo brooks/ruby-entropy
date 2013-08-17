@@ -42,7 +42,7 @@ example.strength
 Ruby Entropy maintains a short list of blacklisted words and phrases.  If you want to add a blacklisted word or phrase e.g., your website name, you can add it like so:
 
 ```ruby
-RubyEntropy.blacklist_passphrase('correct')g
+RubyEntropy.blacklist_passphrase('correct')
 ```
 
 ```ruby
