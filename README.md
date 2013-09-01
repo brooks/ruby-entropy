@@ -3,7 +3,7 @@
 
 Ruby Entropy is an algorithm for evaluating the robustness of passphrases. The algorithm uses standard entropy to calculate a base passphrase strength and then reduces that strength based on repeatability patterns, keyboard patterns, and several weak passphrase tests.
 
-There is a javascript version of the algorithm <a href="https://github.com/broppler/password-entropy">here</a>.
+There is a javascript version of the algorithm <a href="https://github.com/brooks/password-entropy">here</a>.
 
 ##Install
 ```console
